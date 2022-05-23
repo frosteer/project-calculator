@@ -1,0 +1,73 @@
+body {
+    background-color: azure;
+    padding: 100px;
+  }
+  
+  .calculator {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 450px;
+    height: 650px;
+    margin: auto;
+    align-content: center;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 2px 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .calculator:hover {
+    box-shadow: 2px 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+    
+    
+   .calculator div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #28272d;
+    color: #e9e8ed;
+    height: 100px;
+    font-size: 22px;
+  }
+  
+  .calculator .display {
+    background-color: #ffffff;
+    grid-column: 1 / span 4;
+    height: 150px;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 30px;
+    font-size: 70px;
+    color: #28272d;
+  }
+  
+  .calculator .equal {
+   grid-column-start: 4;
+   grid-column-end: 5;
+   grid-row-start: 5;
+   grid-row-end: 7;
+   height: 200px;
+   
+  }
+  
+  .calculator .percent {
+    border-radius: 0px 0px 0px 10px;
+  }
+  
+  .calculator .equal {
+    border-radius: 0px 0px 10px 0px;
+  }
+  
+  .calculator > .div:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  
+  
+  
+  
+  
+  
+  

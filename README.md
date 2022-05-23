@@ -1,5 +1,7 @@
 # project-calculator
 
+Learning Objective:
+
 Learn how to combine different functions together.
 Learn how to add mouse event listeners.
 Learn how to add keyboard event listenders.
