@@ -1,6 +1,6 @@
 body {
     background-color: azure;
-    background-image: url("/assets/backgroundImage.jpg");
+    background-image: url("assets/backgroundImage.jpg");
     background-size: cover;
     padding: 100px;
   }
